@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+        <link href="cal.css" type="text/css" rel="stylesheet">
+        <script src="op.js"></script>
+    </head>
+    <body>
+        <div id="calc">
+            <div>
+                <input type="text" placeholder="0" id="inner">
+
+            </div>
+            <div>
+                <button class="but" onclick="dis(9)">9</button>
+                <button class="but" onclick="dis(8)">8</button>
+                <button class="but" onclick="dis(7)">7</button>
+                <button class="but" onclick="dis('/')">/</button>
+            </div>
+            <div>
+                <button class="but" onclick="dis(6)">6</button>
+                <button class="but" onclick="dis(5)">5</button>
+                <button class="but" onclick="dis(4)">4</button>
+                <button class="but" onclick="dis('+')">+</button>
+            </div>
+            <div>
+                <button class="but" onclick="dis(3)">3</button>
+                <button class="but" onclick="dis(2)">2</button>
+                <button class="but" onclick="dis(1)">1</button>
+                <button class="but" onclick="dis('*')">*</button>
+            </div>
+            <div>
+                <button class="but" onclick="dis(0)">0</button>
+                <button class="but" onclick="equaltoo('=')">=</button>
+                <button class="but" onclick="dis('-')">-</button>
+                <button class="but" onclick="dis('%')">%</button>
+            </div>
+            <div>
+                <button class="cleare" onclick="clrscn()">clear</button>
+                <button id="sqt" onclick="squar()">sqrt</button>
+                <button id="powe" onclick="po()">cube</button>
+            </div>
+    
+        </div>
+    </body>
+</html>
